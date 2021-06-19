@@ -1,0 +1,649 @@
+.maindiv {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+
+  /* Background */
+
+  background: #f7f7fc;
+  .menu {
+    position: absolute;
+    width: 96px;
+    height: 1100px;
+    left: 0px;
+    top: 0px;
+
+    /* Navy */
+
+    background: #16056b;
+    .amenu {
+      position: absolute;
+      width: 96px;
+      height: 478px;
+      left: 0px;
+      top: 197px;
+
+      .settingclass {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 36px;
+        top: 438px;
+      }
+      .staclass {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 36px;
+        top: 366px;
+      }
+      .calclass {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 36px;
+        top: 294px;
+      }
+      .plusclass {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 36px;
+        top: 222px;
+      }
+      .wificlass {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 36px;
+        top: 150px;
+      }
+      .contact {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 36px;
+        top: 78px;
+      }
+      .home {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 36px;
+        top: 11px;
+      }
+      .reck1 {
+        position: absolute;
+        width: 3px;
+        height: 46px;
+        left: 0px;
+        top: 0px;
+
+        /* Columbia blue */
+
+        background: #b4d7fe;
+      }
+      .backhome {
+        position: absolute;
+        width: 96px;
+        height: 46px;
+        left: 0px;
+        top: 0px;
+
+        background: linear-gradient(
+          90deg,
+          rgba(86, 150, 250, 0.51) 0%,
+          rgba(86, 150, 250, 0) 100%
+        );
+      }
+    }
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 8px;
+
+      position: absolute;
+      width: 96px;
+      height: 96px;
+      left: 0px;
+      top: 24px;
+    }
+    .pic {
+      position: static;
+      width: 64px;
+      height: 64px;
+      left: 0px;
+      top: 0px;
+
+      // background: url(.jpg);
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 0px 16px;
+    }
+    .line {
+      position: static;
+      width: 80px;
+      height: 0px;
+      left: 8px;
+      top: 96px;
+
+      opacity: 0.2;
+      /* Off-white */
+
+      border: 1px solid #fcfcfc;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 32px 0px;
+    }
+    .profile1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+
+      position: static;
+      width: 64px;
+      height: 64px;
+      left: 16px;
+      top: 0px;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 32px 0px;
+    }
+  }
+  .social {
+    position: absolute;
+    width: 318px;
+    height: 48px;
+    left: 175px;
+    top: 148px;
+
+    /* 32 px Bold */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+    /* Navy */
+
+    color: #16056b;
+  }
+  .manage {
+    position: absolute;
+    width: 303px;
+    height: 24px;
+    left: 174px;
+    top: 204px;
+
+    /* 16 px Regular */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+    /* Label */
+
+    color: #6e7191;
+  }
+  .add {
+    position: absolute;
+    width: 315px;
+    height: 24px;
+    left: 190px;
+    top: 256px;
+
+    /* 16 px Semibold */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+    /* Maya blue */
+
+    color: #5696fa;
+  }
+  .addborder {
+    position: absolute;
+    width: 347px;
+    height: 32px;
+    left: 174px;
+    top: 252px;
+
+    /* Maya blue */
+
+    background: #5696fa;
+    opacity: 0.2;
+    border-radius: 1px;
+  }
+  .addbright {
+    position: absolute;
+    width: 2px;
+    height: 32px;
+    left: 174px;
+    top: 252px;
+
+    /* Maya blue */
+
+    background: #5696fa;
+    border-radius: 30px;
+  }
+  .background {
+    position: absolute;
+    width: 461px;
+    height: 226px;
+    left: 174px;
+    top: 316px;
+
+    /* Input Background */
+
+    background: #eff0f7;
+    border-radius: 10px;
+    .oplus {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 397px;
+      top: 162px;
+    }
+    .conn {
+      position: absolute;
+      width: 299px;
+      height: 24px;
+      left: 33px;
+      top: 166px;
+
+      /* 16 px Semibold */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
+
+      /* Label */
+
+      color: #6e7191;
+    }
+    .line93 {
+      position: absolute;
+      width: 397px;
+      height: 0px;
+      left: 32px;
+      top: 146px;
+
+      /* Placeholder */
+
+      border: 1px solid #a0a3bd;
+    }
+    .oplus2 {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 397px;
+      top: 98px;
+    }
+    .conn2 {
+      position: absolute;
+      width: 292px;
+      height: 24px;
+      left: 33px;
+      top: 102px;
+
+      /* 16 px Semibold */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
+
+      /* Label */
+
+      color: #6e7191;
+    }
+    .fbmain {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+
+      position: absolute;
+      width: 193px;
+      height: 50px;
+      left: 32px;
+      top: 32px;
+      .facebook {
+        position: static;
+        width: 135px;
+        height: 48px;
+        left: 58px;
+        top: 1px;
+
+        /* 32 px Regular */
+
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 48px */
+
+        /* Navy */
+
+        color: #16056b;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
+      .fb {
+        position: static;
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
+    }
+  }
+  .background1 {
+    position: absolute;
+    width: 461px;
+    height: 226px;
+    left: 650px;
+    top: 317px;
+
+    /* Input Background */
+
+    background: #eff0f7;
+    border-radius: 10px;
+
+    .oplus3 {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 397px;
+      top: 162px;
+    }
+    .conn3 {
+      position: absolute;
+      width: 293px;
+      height: 24px;
+      left: 33px;
+      top: 166px;
+
+      /* 16 px Semibold */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
+
+      /* Label */
+
+      color: #6e7191;
+    }
+    .line94 {
+      position: absolute;
+      width: 397px;
+      height: 0px;
+      left: 32px;
+      top: 146px;
+
+      /* Placeholder */
+
+      border: 1px solid #a0a3bd;
+    }
+    .oplus4 {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 397px;
+      top: 98px;
+    }
+    .conn4 {
+      position: absolute;
+      width: 281px;
+      height: 24px;
+      left: 33px;
+      top: 102px;
+
+      /* 16 px Semibold */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
+
+      /* Label */
+
+      color: #6e7191;
+    }
+    .lmain {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+
+      position: absolute;
+      width: 193px;
+      height: 49.95px;
+      left: 32px;
+      top: 32px;
+
+      .linked {
+        position: static;
+        width: 119px;
+        height: 48px;
+        left: 58px;
+        top: 0.98px;
+
+        /* 32 px Regular */
+
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 48px */
+
+        /* Navy */
+
+        color: #16056b;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
+      .ln {
+        position: static;
+        left: 0%;
+        right: 74.09%;
+        top: 0%;
+        bottom: 0%;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
+    }
+  }
+  .background2 {
+    position: absolute;
+    width: 461px;
+    height: 226px;
+    left: 1126px;
+    top: 316px;
+
+    /* Input Background */
+
+    background: #eff0f7;
+    border-radius: 10px;
+    .oplus5 {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 397px;
+      top: 162px;
+    }
+    .conn5 {
+      position: absolute;
+      width: 282px;
+      height: 24px;
+      left: 33px;
+      top: 166px;
+
+      /* 16 px Semibold */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
+
+      /* Label */
+
+      color: #6e7191;
+    }
+    .line95 {
+      position: absolute;
+      width: 397px;
+      height: 0px;
+      left: 32px;
+      top: 146px;
+
+      /* Placeholder */
+
+      border: 1px solid #a0a3bd;
+    }
+    .oplus6 {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      left: 397px;
+      top: 98px;
+    }
+    .conn6 {
+      position: absolute;
+      width: 274px;
+      height: 24px;
+      left: 33px;
+      top: 102px;
+
+      /* 16 px Semibold */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
+
+      /* Label */
+
+      color: #6e7191;
+    }
+    .tmain {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+
+      position: absolute;
+      width: 193px;
+      height: 49.95px;
+      left: 32px;
+      top: 32px;
+
+      .twitter {
+        position: static;
+        width: 101px;
+        height: 48px;
+        left: 58px;
+        top: 0.98px;
+
+        /* 32 px Regular */
+
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 150%;
+        /* identical to box height, or 48px */
+
+        /* Navy */
+
+        color: #16056b;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
+      .tw {
+        position: static;
+        left: 0%;
+        right: 74.09%;
+        top: 0%;
+        bottom: 0%;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
+    }
+  }
+}

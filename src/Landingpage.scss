@@ -1,0 +1,398 @@
+.firstdiv {
+  //  Group 1458
+
+  position: absolute;
+  width: 1920px;
+  height: 6205px;
+  .pic {
+    /* Rectangle 443 */
+
+    position: absolute;
+    width: 754px;
+    height: 957px;
+    left: 936px;
+    top: 62px;
+
+    /* Navy */
+
+    background: white;
+  }
+
+  .navbar {
+    /* Rectangle 442 */
+
+    position: absolute;
+    width: 1920px;
+    height: 60px;
+    left: 0px;
+    //top: 63px;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    .head {
+      /* Post Publisher */
+
+      position: absolute;
+      width: 152px;
+      height: 29px;
+      left: 40px;
+      top: 79px;
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      /* identical to box height */
+
+      /* Dark tangerine */
+
+      color: #f45b0f;
+    }
+    .Price {
+      /* Pricing */
+
+      position: absolute;
+      left: 67.92%;
+      right: 29.9%;
+      top: 14px;
+      bottom: 98.41%;
+
+      /* 14 px Regular */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      /* or 21px */
+
+      /* Title-Active */
+
+      color: #14142b;
+    }
+    .Feature {
+      /* Features */
+
+      position: absolute;
+      left: 71.77%;
+      right: 25.47%;
+      top: 14px;
+      bottom: 98.42%;
+
+      /* 14 px Regular */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      /* or 21px */
+
+      /* Title-Active */
+
+      color: #14142b;
+    }
+    .blog {
+      /* Blog */
+
+      position: absolute;
+      left: 76.2%;
+      right: 22.34%;
+      top: 14px;
+      bottom: 98.39%;
+
+      /* 14 px Regular */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      /* identical to box height, or 21px */
+
+      /* Title-Active */
+
+      color: #14142b;
+    }
+    .support {
+      position: absolute;
+      left: 78.96%;
+      right: 18.44%;
+      top: 14px;
+      bottom: 98.42%;
+
+      /* 14 px Regular */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      /* or 21px */
+
+      /* Title-Active */
+
+      color: #14142b;
+    }
+
+    .signin1 {
+      /* SignIn */
+
+      /* Auto Layout */
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 32px;
+
+      position: absolute;
+      width: 106px;
+      height: 37px;
+      left: 1598px;
+      top: 12px;
+
+      /* Navy */
+
+      border: 1px solid #16056b;
+      box-sizing: border-box;
+      border-radius: 100px;
+      .signin2 {
+        position: static;
+        left: 30.19%;
+        right: 30.19%;
+        top: 21.62%;
+        bottom: 21.62%;
+
+        /* 14 px Semobold */
+
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        /* Navy */
+
+        color: #16056b;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+      }
+    }
+    .signup1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 32px;
+
+      position: absolute;
+      width: 50px;
+      height: 23px;
+      left: 1728px;
+      top: 12px;
+
+      /* Navy */
+
+      background: #16056b;
+      border-radius: 100px;
+
+      .signup2 {
+        position: static;
+        left: 28.57%;
+        right: 28.57%;
+        top: 21.62%;
+        bottom: 21.62%;
+
+        /* 14 px Semobold */
+
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+
+        /* Off-white */
+
+        color: #fcfcfc;
+
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+      }
+    }
+    .post {
+      position: absolute;
+      width: 152px;
+      height: 29px;
+      left: 40px;
+      top: 14px;
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      /* identical to box height */
+
+      /* Dark tangerine */
+
+      color: #f45b0f;
+    }
+  }
+  .bestway {
+    position: absolute;
+    width: 529px;
+    height: 144px;
+    left: 174px;
+    top: 418px;
+
+    /* 48 px Bold */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 150%;
+    /* or 72px */
+
+    /* Navy */
+
+    color: #16056b;
+  }
+  .lorem {
+    position: absolute;
+    width: 664px;
+    height: 108px;
+    left: 174px;
+    top: 570px;
+
+    /* 24 px Semibold */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    /* Label */
+
+    color: #6e7191;
+  }
+  .btn3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+    position: absolute;
+    width: 230px;
+    height: 68px;
+    left: 174px;
+    top: 718px;
+
+    background: #f45b0f;
+    border-radius: 100px;
+
+    .btnin {
+      position: static;
+      width: 70px;
+      height: 21px;
+      left: 37px;
+      top: 16px;
+
+      /* 14 px Semobold */
+
+      font-family: Lato;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 150%;
+      /* identical to box height, or 21px */
+
+      display: flex;
+      align-items: center;
+
+      /* Off-white */
+
+      color: #fcfcfc;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 0px 10px;
+    }
+  }
+  .plans {
+    position: absolute;
+    width: 1920px;
+    height: 665px;
+    left: 0px;
+    top: 1180px;
+
+    /* Background */
+
+    background: #f7f7fc;
+  }
+  .choose {
+    position: absolute;
+    width: 582px;
+    height: 48px;
+    left: 669px;
+    top: 1260px;
+
+    /* 32 px Bold */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Navy */
+
+    color: #16056b;
+  }
+  .chooset {
+    position: absolute;
+    width: 1158px;
+    height: 72px;
+    left: 381px;
+    top: 1332px;
+
+    /* 24 px Regular */
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    text-align: center;
+
+    /* Label */
+
+    color: #6e7191;
+  }
+}

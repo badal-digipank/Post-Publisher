@@ -1,0 +1,128 @@
+.first{
+    display:grid;
+    grid-template-columns: auto auto;
+    
+    .Second{
+        display:flex;
+        margin-top:30px;
+    
+     .Picture1{
+         background-image: url("../src/Patten_Bottom.png");
+         margin-top:416px;
+         height:485px;
+         width:462.05px;
+     }
+      .Picture2{
+          background-image:url("../src/image.png");
+          position:absolute;
+          margin-left:305px;
+          height:729.33px;
+          width:649px;
+      }
+    }
+    .third{
+        display:flex;
+        margin-left:390px;
+        
+    
+        .Loginbox{
+            border-radius: 15px;
+            box-shadow: 0px 8px 20px;
+            position:absolute;
+            margin-left:320px;
+            border-radius: 15px;
+            background-color: #F7F7FC;
+            width:525px;
+            height:520px;
+            margin-top:220px;
+            justify-content: center;
+            padding:32px;
+            .AB{
+                font-family: Lato;
+                font-style: normal;
+                font-weight:bold;
+                font-size: 48px;
+                line-height:130%;
+                color:#F45B0F;
+               
+            }
+            
+            .AD{
+                 
+                
+           .AD1{
+            font-size: 24px;
+            font-family: Lato;
+                font-style:normal;
+                font-weight:normal;
+                line-height:100%;
+                 margin:24px 0px;
+    
+                position: static;
+                
+                height: 24px;
+                left: 32px;
+                top: 248px;
+                              }
+                       
+                
+        }
+            .AE{
+                display:flex;
+                flex-direction: row;
+               align-items: center;
+               justify-content: space-between;
+    
+                
+    
+                margin: 24px 0px;
+                padding: 8px 15px;
+               color:#16056B;
+                border-radius: 15px;
+    
+                width:461px;
+                height:72px ;
+                left:32px;
+                top:670px;
+                background-color: #F7F7FC ;
+               border:1px solid #16056B;
+    
+                 
+            }
+            .orange{
+                color:#F45B0F;
+            }
+            .underline{
+                font-style: italic;
+                text-decoration: underline;
+    
+                            }
+             
+            .AF{
+                display:flex;
+                flex-direction: row;
+               align-items: center;
+               justify-content: center;
+    
+                margin: 24px 0px;
+                padding: 8px 15px;
+               color:white;
+                border-radius: 15px;
+    
+                width:461px;
+                height:72px ;
+                left:32px;
+                top:670px;
+                background-color: #16056B; 
+            }
+        }
+    
+        .Picture3{
+         background-image: url("../src/Patten_Top.png");   
+         margin-left:600px;
+         height:485px;
+        width:462.05px;
+        }
+    }
+    }
+    
